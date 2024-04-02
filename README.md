@@ -2,10 +2,12 @@
 
 ## web_worldfile_search
 
-Simple REST API which allow client send the Get request on path : /files/search and deliver the argument "word". Example: 
+REST API which allow client send the Get request on path : /files/search and deliver the argument "word". Example: 
 
 > localhost:8080/files/search?word=дни
 
 Resoponse on this request is a list of files which contains word delivered as argument.
 
-## web_worldfile_search
+## console game
+
+This game allows the user to navigate through locations, check for items in the location and take them.
